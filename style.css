@@ -1,0 +1,39 @@
+/* Allgemeine Stile */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: #FFC857;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Links-Stile */
+
+.panel {
+  background-color: #123456; /* Hintergrundfarbe ändern */
+}
+
+.panel a {
+  color: #ffffff; /* Schriftfarbe ändern */
+}
+
+@media (max-width: 767px) {
+  .links a {
+    width: 100%;
+  }
+}
+
